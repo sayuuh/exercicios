@@ -1,0 +1,118 @@
+.pac-pay{
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 80px;
+}
+
+/* HEADER */
+.content-pay{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 10px;  
+    margin: 40px;  
+}
+.content-pay h1{
+    font-size: 35px;
+}
+
+/* UL PRIMEIRA LISTA */
+.list-pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.list-pay .image-pay img{
+   width: 30px;
+   height: 15px;
+}
+.list-pay li a{
+    color: black;
+}
+
+.pack-list .pack-item{
+    box-shadow: 1px 1px 5px rgb(109, 108, 108);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pack-list .pack-item .pack-topo{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    height: 150px;
+}
+.pack-list .pack-item .pack-topo p{
+    font-size: 15px;
+}
+
+.pack-list .pack-item .item1{
+    background-color: rgb(29, 112, 206);
+    border-radius: 3px;
+    width: fit-content;
+    color: white;
+    padding: 5px;
+    font-size: 12px;    
+}
+.pack-list .pack-item .item2{
+    color: rgb(29, 112, 206);
+    border: 1px solid rgb(29, 112, 206);
+    width: fit-content;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+/* DIV */
+.pack-list .pack-item div{
+    background-color: gray;
+    width: auto;
+    height: 1px;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+/* UL LISTA 2 */
+.pac-pay .pack-list{
+    display: flex;
+    gap: 30px;
+}
+.pac-pay .pack-list .pack-item{
+    width: 230px;
+    min-width: 230px;
+} 
+.pack-list .pack-item ul{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;     
+    height: 300px;  
+    font-size: 15px; 
+}
+.pack-list .pack-item footer{
+   height: 100px;  
+}
+.pack-list .pack-item .img-ok{
+    display: flex;
+    gap: 5px;        
+}
+
+.pack-list .pack-item .img-ok img{
+    width: 22px;
+    height: fit-content;
+   
+}
+.pack-list .pack-item footer p{
+    color: rgb(82, 82, 82);
+    font-size: 11px;
+}
+.pack-list .pack-item footer p a{
+    color: rgb(82, 82, 82);
+}
+
+
+
+

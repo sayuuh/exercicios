@@ -1,0 +1,32 @@
+.top-header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header img{
+    padding-top: 5px;
+    width: 130px;        
+}
+.top-header a{
+    color: white;
+    font-size: 13px;
+}
+.top-header nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.top-header nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.top-header nav a:hover{
+    color: rgb(43, 209, 93);
+    font-weight: bold;
+}
+.top-header nav div{
+    background-color: white;
+    width: 1px;
+    height: 18px;
+}
